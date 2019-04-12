@@ -1,14 +1,14 @@
 {
   "name": "cordova-plugin-sumup-ios",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Cordova Sumup Plugin",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rmachielse/cordova-plugin-sumup.git"
+    "url": "git+https://github.com/Shadowstyler/cordova-plugin-sumup.git"
   },
-  "author": "Richard Machielse",
+  "author": "Shadowstyler",
   "license": "MIT",
-  "homepage": "https://github.com/rmachielse/cordova-plugin-sumup#readme",
+  "homepage": "https://github.com/Shadowstyler/cordova-plugin-sumup#readme",
   "cordova": {
     "id": "cordova-plugin-sumup-ios",
     "platforms": [

@@ -23,6 +23,8 @@ NS_SWIFT_NAME(CurrencyCodeBRL)
 extern NSString * const SMPCurrencyCodeBRL;
 NS_SWIFT_NAME(CurrencyCodeCHF)
 extern NSString * const SMPCurrencyCodeCHF;
+NS_SWIFT_NAME(CurrencyCodeCLP)
+extern NSString * const SMPCurrencyCodeCLP;
 NS_SWIFT_NAME(CurrencyCodeCZK)
 extern NSString * const SMPCurrencyCodeCZK;
 NS_SWIFT_NAME(CurrencyCodeDKK)
@@ -129,6 +131,14 @@ NS_SWIFT_NAME(CheckoutRequest)
  *  @note Will be added to the totalAmount. Must be greater zero if passed.
  */
 @property (nonatomic, copy, nullable) NSDecimalNumber *tipAmount;
+
+/**
+ *  An optional count for the display of the number of sale items throughout the checkout process.
+ *  Default is zero which will hide the display of the item count.
+ *  This value is currently not reflected in the merchant's history
+ *  or the customer receipts.
+ */
+@property (nonatomic) NSUInteger saleItemsCount;
 
 
 /**
