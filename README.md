@@ -5,7 +5,7 @@ Cordova plugin for a native integration with the [SumUp iOS SDK](https://github.
 ## Installation
 
 ```
-cordova plugin add https://github.com/rmachielse/cordova-plugin-sumup-ios --variable SUMUP_API_KEY=YOUR_AFFILIATION_KEY
+cordova plugin add https://github.com/Shadowstyler/cordova-plugin-sumup-ios --variable SUMUP_API_KEY="YOUR_AFFILIATION_KEY"
 ```
 
 You can generate your affiliation key in your merchant account on SumUp website in the developer menu.
